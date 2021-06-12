@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-GO="1.9.3"
+GO="1.13"
 echo "Checking for existing versions..."
 if [ -d "$HOME/.go" ] || [ -d "$HOME/go" ]; then
     echo "Go directories already exist."
